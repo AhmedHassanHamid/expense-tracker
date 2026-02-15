@@ -9,7 +9,7 @@ This is a **Headless/Back-End-only** project. Instead of a UI, it is designed to
 
 ## 🛠 Tech Stack & Dependencies
 * **Java 17+**
-* **Spring Boot 4.0.2
+* **Spring Boot 4.0.2** 
 * **Spring Data JPA**: For MySQL persistence.
 * **Spring Validation**: For ensuring data integrity.
 * **MySQL**: Primary relational database.
@@ -21,8 +21,8 @@ This is a **Headless/Back-End-only** project. Instead of a UI, it is designed to
 
 ### 🟦 Phase 1: Persistence & Data Modeling (The Foundation)
 - [x] Initialize project with Spring Initializr.
-- [ ] Configure `application.properties` for MySQL.
-- [ ] Create `Category` Entity (id, name, type).
+- [x] Configure `application.properties` for MySQL.
+- [x] Create `Category` Entity (id, name, type).
 - [ ] Create `Expense` Entity with `@ManyToOne` mapping to Category.
 - [ ] Implement `JpaRepository` for both.
 
