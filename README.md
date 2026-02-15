@@ -20,7 +20,7 @@ This is a **Headless/Back-End-only** project. Instead of a UI, it is designed to
 ## 🚀 Development Roadmap
 
 ### 🟦 Phase 1: Persistence & Data Modeling (The Foundation)
-- [ ] Initialize project with Spring Initializr.
+- [x] Initialize project with Spring Initializr.
 - [ ] Configure `application.properties` for MySQL.
 - [ ] Create `Category` Entity (id, name, type).
 - [ ] Create `Expense` Entity with `@ManyToOne` mapping to Category.
